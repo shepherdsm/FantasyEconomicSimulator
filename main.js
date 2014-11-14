@@ -27,6 +27,10 @@ function TradeGood() {
   this.price = 0;
 }
 
-city = new City(Destin);
+city = new City('Destin');
 city.lots[0] = new Lot("home");
 city.lots[0].demand[0] = new Demand("food", 3);
+
+console.log(city);
+console.log(city.lots[0]);
+console.log(city.lots[0].demand[0]);
