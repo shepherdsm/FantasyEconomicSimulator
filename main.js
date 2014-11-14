@@ -5,19 +5,19 @@ function City(name) {
 
 function Lot(type) {
   this.population = 0;
-	this.type = type;
-	this.demand = [];
-	this.supply = [];
+  this.type = type;
+  this.demand = [];
+  this.supply = [];
 }
 
 function Demand(good, quantity) {
   this.good = good;
-	this.quantity = quantity;
+  this.quantity = quantity;
 }
 
 function Supply(good, quantity) {
   this.good = good;
-	this.quantity = quantity;
+  this.quantity = quantity;
 }
 
 function Person() {
